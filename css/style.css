@@ -1,0 +1,42 @@
+.navbar,
+.box {
+    box-shadow: -5px 2px 30px -9px rgba(0, 0, 0, 0.9);
+}
+
+.box {
+    height: 200px;
+}
+
+.bigger-box {
+    height: 100%;
+}
+
+body {
+    height: 75vh
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn {
+    border-color: #F8D7DA;
+    color: #F8D7DA;
+}
+
+.btn:hover {
+    background-color: #F8D7DA !important;
+    color: #212529;
+}
+
+.form-control:focus{
+    border-color: #f8d7da;
+    outline: 0;
+    box-shadow: 0 0 0 0.12rem #f8d7da;
+}
+
+.box-registration{
+height: 90%;
+box-shadow: -5px 2px 30px -9px rgba(0, 0, 0, 0.9);
+}
