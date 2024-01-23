@@ -31,7 +31,7 @@ function signUp() {
                     password: passwordInput.value,
                 }
                 users.push(userobj);
-                location.href = 'login.html'
+                location.href = 'index.html'
                 localStorage.setItem("user", JSON.stringify(users))
             }
         }
